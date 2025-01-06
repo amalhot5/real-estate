@@ -3,6 +3,15 @@ data/
 *.csv
 *.html
 .DS_Store
+*.pkl
+*.zip
+*.xlsx
+*.geojson
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
