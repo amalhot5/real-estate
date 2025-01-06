@@ -1,0 +1,42 @@
+digraph value_mask_diagram {
+  graph[overlap=false, splines=true]
+  rankdir=TB
+  subgraph cluster_models
+  {
+    label="Value Mask Applicatees\lEach of these entities includes one or more value masks"
+    color=lightgrey
+    "Listing" [shape=Mrecord, label="{Listing|id :integer\laddress :character varying\lunit_number :character varying\lzip :character varying\ldescription :character varying\llist_date :date\lmodified :date\lmls_id :character varying\lkey :character varying\llist_number :character varying\lurl :character varying\lsale_date :date\lstatus_code :integer\llatitude :double precision\llongitude :double precision\lunit_id :integer\lpublished :boolean\lexpiration :date\lsale_or_rental :character varying\lneighborhood_id :integer\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\lbuilding_id :integer\lbrokerage_id :integer\lproperty_type_code :integer\lhidden :boolean\lpct_tax_deductible :integer\llisting_created :date\lproperty_id :integer\lrebny_id :character varying\laddress_match_failed :timestamp without time zone\lintersect_match_failed :timestamp without time zone\lbuilding_match_method :character varying\lweb_id :integer\l}"]
+    "Building" [shape=Mrecord, label="{Building|id :integer\lriv_code :character varying(255)\lexternal_code :character varying(255)\lcity :character varying(255)\lstate :character varying(255)\lzip :character varying(255)\lgoogle_map_params :character varying(255)\lbuilding_style_code :integer\lcounty_code :integer\lschool_district_code :integer\lproperty_type_code :integer\lsection_of_neighborhood :character varying(255)\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\lneighborhood_id :integer\lpluto_bbl :numeric\ldisplay_address :character varying(255)\ldisplay_name :character varying(255)\lgarage_type_code :integer\lyear_built :integer\lbenefit_construction_completed :date\lnum_stories :integer\lnum_units :integer\ltax_class :character varying(2)\lcentroid_latitude :numeric(10,6)\lcentroid_longitude :numeric(10,6)\ltax_benefit_code :character varying(255)\ltax_benefit_start_date :date\ltax_exemption_end_date :date\ltax_abatement_end_date :date\lj51_crc_perc :double precision\lbuilding_class :character varying(255)\lhistoric_district :character varying(255)\llandmark :character varying(255)\lbuilding_front :double precision\lbuilding_depth :double precision\ltranche :character varying\lnew_development :boolean\lin_search :boolean\l}"]
+    "Unit" [shape=Mrecord, label="{Unit|id :integer\lbuilding_id :integer\lunit_number :character varying(255)\lbase_year_assessed_value :integer\lcurrent_assessed_value :integer\lbase_421g_abatement :integer\lbase_j51_abatement :integer\lremaining_j51_benefit :integer\lalteration_cost :integer\lboro :integer\lblock :integer\llot :integer\lbase_421g_exemption :integer\lbase_j51_exemption :integer\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\l}"]
+  }
+
+  subgraph cluster_vm {
+    label="Value Mask Applicators\lOverridable attributes associated with an object"
+    color=lightgrey
+    "Feature" [shape=Mrecord, label="{Feature|id :integer\lsqft :integer\lfloor :integer\lbedrooms :integer\lbathrooms :double precision\larchitectural_style :character varying\lhistoric_district_name :character varying\lfeatures_id :integer\lfeatures_type :character varying\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\lhalf_bathrooms :integer\l}"]
+    "Amenity" [shape=Mrecord, label="{Amenity|id :integer\loutdoor_space :boolean\lunit_laundry :boolean\lterrace :boolean\lbalcony :boolean\lgarden :boolean\lmaintenance :integer\lbike_storage :boolean\ldoorman :boolean\lelevator :boolean\lgym :boolean\lpets :boolean\lbuilding_laundry :boolean\lrooftop :boolean\lprewar :boolean\lstorage :boolean\lgarage :boolean\lnew_development :boolean\lamenities_id :integer\lamenities_type :character varying\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\lpool :boolean\lfireplace :boolean\lhistoric_district :boolean\llandmark :boolean\l}"]
+    "Monthly" [shape=Mrecord, label="{Monthly|id :integer\lmaintenance :integer\lproperty_tax :integer\lmonthlies_id :integer\lmonthlies_type :character varying\lcreated_at :timestamp without time zone\lupdated_at :timestamp without time zone\l}"]
+  }
+
+
+  subgraph cluster_application {
+    color=white
+    node [shape=box]
+    label="Application\lThe value masks apply from Listing to Unit to Building.\lThe order for the lookup is specified in the object,\lfor example, the Listing model has a lookup of Listing -> Unit -> Building,\lwhile the unit model has a lookup of Unit -> Building"
+    lvm [label="Listing Value Mask"]
+    uvm [label="Unit Value Mask"]
+    bvm [label="Building Value Mask"]
+    lvm -> uvm -> bvm [label=" Overrides"]
+  }
+  "Unit" -> "Feature" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Unit" -> "Monthly" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Unit" -> "Amenity" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Unit" -> "Listing" [arrowtail=odot, arrowhead=crow, dir=both ]
+  "Listing" -> "Feature" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Listing" -> "Monthly" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Listing" -> "Amenity" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Building" -> "Feature" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Building" -> "Amenity" [arrowtail=odot, arrowhead=dot, dir=both ]
+  "Building" -> "Listing" [arrowtail=odot, arrowhead=crow, dir=both ]
+  "Building" -> "Unit" [arrowtail=odot, arrowhead=crow, dir=both ]
+}

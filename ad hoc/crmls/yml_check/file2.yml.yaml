@@ -1,0 +1,291 @@
+
+- :reso_field: :green_location
+  :reso_class: :LocalizedFields
+  :perchwell_field: :green_location
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Walkability: :walkability
+    Transportation: :transportation
+
+- :reso_field: :estimated_buyer_financing
+  :reso_class: :LocalizedFields
+  :perchwell_field: :estimated_buyer_financing
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Cash to Loan: :cash_to_loan
+    Cash to New Loan: :cash_to_new_loan
+    Cash to Second Loan: :cash_to_second_loan
+    CNTR: :cntr
+    FHVA: :fhva
+    Trust Conveyance: :trust_conveyance
+    USDA: :usda
+    Trust Deed: :trust_deed
+    Assumed: :assumed
+    Cal Vet: :cal_vet
+    Cash: :cash
+    Contract: :contract
+    Conventional: :conventional
+    FHA: :fha
+    Owner Carried: :owner_carried
+    Private: :private
+    See Remarks: :see_remarks
+    VA: :va
+    Exchange/Trade: :exchange_trade
+    Seller Financing: :seller_financing
+    FHA 203(b): :fha203b
+    FHA 203(k): :fha203k
+    None: :none
+    Other: :other
+
+- :reso_field: :office_class
+  :reso_class: :LocalizedFields
+  :perchwell_field: :office_class
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    A: :office_class_a
+    B: :office_class_b
+    C: :office_class_c
+
+- :reso_field: :office_type
+  :reso_class: :LocalizedFields
+  :perchwell_field: :office_type
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Church: :church
+    Government: :government
+    Medial/Dental: :medial_dental
+    Multi Tenant: :multi_tenant
+    Nursing Facility: :nursing_facility
+    Other: :other
+    Owner User: :owner_user
+    Single Tenant: :single_tenant
+
+- :reso_field: :signage
+  :reso_class: :LocalizedFields
+  :perchwell_field: :signage
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Sign Freestanding: :sign_freestanding
+    Sign on Building: :sign_on_building
+
+- :reso_field: :industrial_type
+  :reso_class: :LocalizedFields
+  :perchwell_field: :industrial_type
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Manufacturing: :manufacturing
+    Distribution: :distribution
+    Warehouse: :warehouse
+
+- :reso_field: :tax_other_annual_assessment_amount_source
+  :reso_class: :LocalizedFields
+  :perchwell_field: :tax_other_annual_assessment_amount_source
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Assessor: :assessor
+    Builder: :builder
+    Estimated: :estimated
+    Other: :other
+    Owner: :owner
+    Public Records: :public_records
+    See Remarks: :see_remarks
+    Seller: :seller
+
+- :reso_field: :rental_application
+  :reso_class: :LocalizedFields
+  :perchwell_field: :rental_application
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    RentSpree: :rent_spree
+    None: :none
+
+- :reso_field: :retail_center_type
+  :reso_class: :LocalizedFields
+  :perchwell_field: :retail_center_type
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Community/Specialty: :community_specialty
+    Grocery Anchor: :grocery_anchor
+    Mixed Use: :mixed_use
+    Power: :power
+    Regional Center: :regional_center
+    Unanchored: :unanchored
+
+- :reso_field: :assessments
+  :reso_class: :LocalizedFields
+  :perchwell_field: :assessments
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Buyer to Assume: :buyerto_assume
+    Buyer to Verify: :buyerto_verify
+    Seller to Pay: :sellerto_pay
+    CFD/Mello-Roos: :cfd_mello_roos
+    None: :none
+    Sewer Assessments: :sewer_assessments
+    Sewer Bonds: :sewer_bonds
+    Special Assessments: :special_assessments
+    Unknown: :unknown
+
+- :reso_field: :fha_eligibility
+  :reso_class: :LocalizedFields
+  :perchwell_field: :fha_eligibility
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Approved: :approved
+    Conditionally Approved: :conditionally_approved
+    Rejected: :rejected
+    Withdrawn: :withdrawn
+    Unknown: :unknown
+
+- :reso_field: :buyer_agency_compensation_type
+  :reso_class: :LocalizedFields
+  :perchwell_field: :buyer_agency_compensation_type
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Dollars: :dollars
+    Percentage: :percentage
+    See Remarks: :see_remarks
+
+- :reso_field: :transfer_fee_paid_by
+  :reso_class: :LocalizedFields
+  :perchwell_field: :transfer_fee_paid_by
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Owner: :owner
+    Tenant: :tenant
+
+- :reso_field: :survey
+  :reso_class: :LocalizedFields
+  :perchwell_field: :survey
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Buyer Pays: :buyer_pays
+    Corners Marked: :corners_marked
+    Seller Pays: :seller_pays
+    Survey Done: :survey_done
+
+- :reso_field: :buyer_agency_compensation_per
+  :reso_class: :LocalizedFields
+  :perchwell_field: :buyer_agency_compensation_per
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    First Weeks Rent: :first_weeks_rent
+    First Months Rent: :first_months_rent
+    First Years Rent: :first_years_rent
+    Lease Term: :lease_term
+    Lump Sum: :lump_sum
+    Weekly: :weekly
+    Monthly: :monthly
+    Yearly: :yearly
+    Other: :other
+
+- :reso_field: :accounting_type
+  :reso_class: :LocalizedFields
+  :perchwell_field: :accounting_type
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Actual: :actual
+    ProForma: :pro_forma
+
+- :reso_field: :laundry_equipment_own_lease
+  :reso_class: :LocalizedFields
+  :perchwell_field: :laundry_equipment_own_lease
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Own: :own
+    Lease: :lease
+
+- :reso_field: :credit_check_paid_by
+  :reso_class: :LocalizedFields
+  :perchwell_field: :credit_check_paid_by
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Owner: :owner
+    Tenant: :tenant
+
+- :reso_field: :land_lease_amount_source
+  :reso_class: :LocalizedFields
+  :perchwell_field: :land_lease_amount_source
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Seller: :seller
+    Park: :park
+    Current: :current
+
+- :reso_field: :probate_authority
+  :reso_class: :LocalizedFields
+  :perchwell_field: :probate_authority
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Court Confirmation Required: :court_confirmation_required
+    Court Confirmation Not Required: :court_confirmation_not_required
+
+- :reso_field: :occupancy
+  :reso_class: :LocalizedFields
+  :perchwell_field: :occupancy
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Vacant: :vacant
+
+- :reso_field: :asset_class
+  :reso_class: :LocalizedFields
+  :perchwell_field: :asset_class
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Farm: :farm
+    HotelMotel: :hotel_motel
+    Industrial: :industrial
+    UnimprovedLand: :unimproved_land
+    MobileHome: :mobile_home
+    MultiFamily: :multi_family
+    Office: :office
+    Retail: :retail
+
+- :reso_field: :cashiers_check
+  :reso_class: :LocalizedFields
+  :perchwell_field: :cashiers_check
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Last Month Rent: :last_month_rent
+    See Remarks: :see_remarks
+    1ST Month Rent: :1st_month_rent
+    Credit Report: :credit_report
+    Not Applicable: :not_applicable
+    Pet Deposit: :pet_deposit
+    Security Deposit: :security_deposit
+
+- :perchwell_field: :land_use
+  :reso_field: :land_use
+  :reso_class: :LocalizedFields
+  :perchwell_class: :LocalizedFields
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Industrial: :industrial
+    MobileHomePark: :mobile_home_park
+    MultiFamily: :multi_family
+    Office: :office
+    Other: :other
+    Retail: :retail

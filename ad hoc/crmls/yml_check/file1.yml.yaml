@@ -1,0 +1,664 @@
+- :perchwell_field: :association_amenities
+  :reso_field: :association_amenities
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Pier: :pier
+    Boathouse: :boathouse
+    Pest Control: :pest_control
+    Banquet Facilities: :banquet_facilities
+    Bocce Ball Court: :bocce_ball_court
+    Call for Rules: :callfor_rules
+    Biking Trails: :biking_trails
+    Controlled Access: :controlled_access
+    Fire Pit: :fire_pit
+    Hiking Trails: :hiking_trails
+    Horse Trails: :horse_trails
+    Kennel: :kennel
+    Other Courts: :other_courts
+    Outdoor Cooking Area: :outdoor_cooking_area
+    Paddle Tennis: :paddle_tennis
+    Permitted Types: :permitted_types
+    Pets Not Permitted: :pets_not_permitted
+    Pets Permitted: :pets_permitted
+    Sewer: :sewer
+    Weight Limit: :weight_limit
+    Card Room: :card_room
+    Earthquake Insurance: :earthquake_insurance
+    Pet Rules: :pet_rules
+
+- :perchwell_field: :business_type
+  :reso_field: :business_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Adult Family Home: :adult_family_home
+    Build to Suit: :buildto_suit
+    Condominium: :condominium
+    Government: :government
+    Live/Work: :live_work
+    Multi-Tenant: :multi_tenant
+    Pad(s): :pads
+    Showroom: :showroom
+    Single-Tenant: :single_tenant
+    Special Use: :special_use
+    Stand-Alone: :stand_alone
+
+- :perchwell_field: :sewer_type
+  :reso_field: :sewer
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Soils Analysis Septic: :soils_analysis_septic
+    Sewer On Bond: :sewer_on_bond
+    Sewer Paid: :sewer_paid
+    Sewer Applied for Permit: :sewer_appliedfor_permit
+    Sewer Assessments: :sewer_assessments
+
+- :perchwell_field: :interior_features
+  :reso_field: :interior_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Ceramic Counters: :ceramic_counters
+    Corian Counters: :corian_counters
+    Formica Counters: :formica_counters
+    Pull Down Stairs to Attic: :pull_down_stairsto_attic
+    Sunken Living Room: :sunken_living_room
+    Trash Chute: :trash_chute
+    Two Story Ceilings: :two_story_ceilings
+    2 Staircases: :two_staircases
+    Quartz Counters: :quartz_counters
+    Chair Railings: :chair_railings
+    Electronic Air Cleaner: :electronic_air_cleaner
+    Suspended Ceiling(s): :suspended_ceilings
+    Wainscoting: :wainscoting
+    Wood Product Walls: :wood_product_walls
+    Copper Plumbing Full: :copper_plumbing_full
+    Copper Plumbing Partial: :copper_plumbing_partial
+    Living Room Deck Attached: :living_room_deck_attached
+
+- :perchwell_field: :foundation_details
+  :reso_field: :foundation_details
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Seismic Tie Down: :seismic_tie_down
+    Stacked Block: :stacked_block
+    FHA Approved: :fha_approved
+    Pier Jacks: :pier_jacks
+    Quake Bracing: :quake_bracing
+    Tie Down: :tie_down
+
+- :perchwell_field: :living_area_source
+  :reso_field: :living_area_source
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :single
+  :bidirectional_mapping:
+    GIS Calculated: :gis_calculated
+    Survey: :survey
+    Not Taped: :not_taped
+    Seller: :seller
+    Taped: :taped
+
+- :perchwell_field: :parking_features
+  :reso_field: :parking_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Parking Space: :parking_space
+    Structure: :structure
+    Auto Driveway Gate: :auto_driveway_gate
+    Controlled Entrance: :controlled_entrance
+    Driveway Brick: :driveway_brick
+    Driveway Combination: :driveway_combination
+    Pull-through: :pull-through
+    Uncovered: :uncovered
+    Garage Single Door: :garage_single_door
+    Garage Three Door: :garage_three_door
+    Garage Two Door: :garage_two_door
+    RV Potential: :rv_potential
+    Tandem Covered: :tandem_covered
+    Driveway Blind: :driveway_blind
+    RV Covered: :rv_covered
+    Porte-Cochere: :porte_cochere
+
+- :perchwell_field: :lot_size_source
+  :reso_field: :lot_size_source
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :single
+  :bidirectional_mapping:
+    GIS Calculated: :gis_calculated
+    Survey: :survey
+    Not Taped: :not_taped
+    Seller: :seller
+    Taped: :taped
+
+- :perchwell_field: :lot_dimensions_source
+  :reso_field: :lot_dimensions_source
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Not Taped: :not_taped
+    Seller: :seller
+    Taped: :taped
+
+- :perchwell_field: :spa_features
+  :reso_field: :spa_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Roof Top: :roof_top
+    Association: :association
+    No Permits: :no_permits
+    Permits: :permits
+    Solar Heated: :solar_heated
+    Vinyl: :vinyl
+
+- :perchwell_field: :laundry_features
+  :reso_field: :laundry_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Community: :community
+    Gas & Electric Dryer Hookup: :gas_electric_dryer_hookup
+    Individual Room: :individual_room
+    Propane Dryer Hookup: :propane_dryer_hookup
+    In Closet: :in_closet
+
+- :perchwell_field: :fencing
+  :reso_field: :fencing
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Average Condition: :average_condition
+    Excellent Condition: :excellent_condition
+    Fair Condition: :fair_condition
+    Good Condition: :good_condition
+    Needs Repair: :needs_repair
+    New Condition: :new_condition
+    Poor Condition: :poor_condition
+    Goat Type: :goat_type
+    Livestock: :livestock
+    Glass: :glass
+    Grapestake: :grapestake
+    Redwood: :redwood
+    Stucco Wall: :stucco_wall
+
+- :perchwell_field: :buyer_financing
+  :reso_field: :buyer_financing
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Exchange/Trade: :exchange_trade
+    None: :none
+    Cal Vet: :cal_vet
+    Cash To Loan: :cash_to_loan
+    Cash To New Loan: :cash_to_new_loan
+    Cash To Second Loan: :cash_to_second_loan
+    Trust Conveyance: :trust_conveyance
+
+- :perchwell_field: :waterfront_type
+  :reso_field: :waterfront_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Marina in Community: :marina_in_community
+    Reservoir in Community: :reservoir_in_community
+    Lot on Canal: :lot_on_canal
+    Fishing in Community: :fishing_in_community
+    Ocean Side of Freeway: :ocean_sideof_freeway
+    Ocean Side Of Highway 1: :ocean_side_of_highway_1
+    Sea Front: :sea_front
+
+- :perchwell_field: :road_frontage_type
+  :reso_field: :road_frontage_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Access is Seasonal: :access_is_seasonal
+    Maintained: :maintained
+    Not Maintained: :not_maintained
+    Country Road: :country_road
+
+- :perchwell_field: :road_surface_type
+  :reso_field: :road_surface_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Unpaved: :unpaved
+    Maintained: :maintained
+    Not Maintained: :not_maintained
+
+- :perchwell_field: :possible_use
+  :reso_field: :possible_use
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Buyer to verify: :buyer_to_verify
+    Church: :church
+    Improved: :improved
+    Parking lot: :parkinglot
+    Storage: :storage
+
+- :perchwell_field: :tenant_pays
+  :reso_field: :tenant_pays
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    ADA Upgrades: :ada_upgrades
+
+- :perchwell_field: :security_features
+  :reso_field: :security_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Automatic Gate: :automatic_gate
+    Fire Rated Drywall: :fire_rated_drywall
+    Resident Manager: :resident_manager
+
+- :perchwell_field: :door_features
+  :reso_field: :door_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Atrium Doors: :atrium_doors
+    Double Door Entry: :double_door_entry
+    Insulated Doors: :insulated_doors
+    Panel Doors: :panel_doors
+    Service Entrance: :service_entrance
+
+- :perchwell_field: :ownership_type
+  :reso_field: :ownership_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Franchise: :franchise
+
+- :perchwell_field: :showing_contact_type
+  :reso_field: :showing_contact_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    None: :none
+    Other: :other
+    See Remarks: :see_remarks
+
+- :perchwell_field: :other_structures
+  :reso_field: :other_structures
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Guest House Detached: :guest_house_detached
+    Second Garage Attached: :second_garage_attached
+    Second Garage Detached: :second_garage_detached
+    Sport Court Private: :sport_court_private
+    Two On A Lot: :two_on_a_lot
+    Aviary: :aviary
+    Guest House Attached: :guest_house_attached
+    Sauna Private: :sauna_private
+
+- :perchwell_field: :lock_box_type
+  :reso_field: :lock_box_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Multiacc: :multiacc
+    Risco: :risco
+
+- :perchwell_field: :current_financing
+  :reso_field: :current_financing
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Existing Bonds: :existing_bonds
+    Cal Vet Loan: :cal_vet_loan
+    Fannie Mae: :fannie_mae
+    Freddie Mac: :freddie_mac
+    Government Loan: :government_loan
+    VA No Loan: :va_no_loan
+    VA No No Loan: :va_no_no_loan
+
+- :perchwell_field: :existing_lease_type
+  :reso_field: :existing_lease_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Full Service: :full_service
+    Industrial Gross: :industrial_gross
+    Modified Gross: :modified_gross
+    Other: :other
+
+- :perchwell_field: :listing_terms
+  :reso_field: :listing_terms
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Non-Smoking Premises: :non_smoking_premises
+    FHA 203(b): :fha_203b
+    FHA 203(k): :fha_203k
+    Government Loan: :government_loan
+    Owner Survey: :owner_survey
+    Subordinate: :subordinate
+    Cash To Existing Loan: :cash_to_existing_loan
+    Cash To New Loan: :cash_to_new_loan
+    Cal Vet Loan: :cal_vet_loan
+    Freddie Mac: :freddie_mac
+    Fannie Mae: :fannie_mae
+    Subject To Court: :subject_to_court
+    Subject To Other: :subject_to_other
+    VA No No Loan: :va_no_no_loan
+    VA No Loan: :va_no_loan
+
+- :perchwell_field: :accessibility_features
+  :reso_field: :accessibility_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    None: :none
+    Other: :other
+    Parking: :parking
+    See Remarks: :see_remarks
+
+- :perchwell_field: :exterior_features
+  :reso_field: :exterior_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Sump Pump: :sump_pump
+    Boat Lift: :boat_lift
+    Corral: :corral
+    Koi Pond: :koi_pond
+    Pier: :pier
+    Satellite Dish: :satellite_dish
+    Stable: :stable
+    TV Antenna: :tv_antenna
+
+- :perchwell_field: :community_amenities
+  :reso_field: :community_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Rural: :rural
+    Storm Drains: :storm_drains
+    Military Land: :military_land
+    Watersports: :watersports
+    Hiking: :hiking
+    Biking: :biking
+    Ravine: :ravine
+    Urban: :urban
+    BLM/National Forest: :blm_national_forest
+    Foothills: :foothills
+    Mountainous: :mountainous
+
+- :perchwell_field: :overall_condition
+  :reso_field: :property_condition
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Additions/Alterations: :additions_alterations
+    Building Permit: :building_permit
+    Repairs Cosmetic: :repairs_cosmetic
+    Repairs Major: :repairs_major
+    Termite Clearance: :termite_clearance
+    Turnkey: :turnkey
+
+- :perchwell_field: :lot_features
+  :reso_field: :lot_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Park Near: :park_near
+    Percolate: :percolate
+    Planned Unit Development: :planned_unit_development
+    Rocks: :rocks
+    Value In Land: :value_in_land
+    Ranch: :ranch
+    Sprinklers Drip System: :sprinklers_drip_system
+    Sprinklers Manual: :sprinklers_manual
+    Sprinkers None: :sprinkers_none
+    Sprinklers On Side: :sprinklers_on_side
+    Sprinklers Timer : :sprinklers_timer
+    Tear Down: :tear_down
+    Yard: :yard
+    No Landscaping: :no_landscaping
+    Horse Property: :horse_property
+    Horse Property Improved: :horse_property_improved
+    Horse Property Unimproved: :horse_property_unimproved
+    Utilities - Overhead: :utilities_overhead
+    Lawn: :lawn
+    0-1 Unit/Acre: :0_to_1_unit_acre
+    11-15 Units/Acre: :11_to_15_units_acre
+    16-20 Units/Acre: :16_to_20_units_acre
+    21-25 Units/Acre: :21_to_25_units_acre
+    2-5 Units/Acre: :2_to_5_units_acre
+    26-30 Units/Acre: :26_to_30_units_acre
+    31-35 Units/Acre: :31_to_35_units_acre
+    36-40 Units/Acre: :36_to_40_units_acre
+    6-10 Units/Acre: :6_to_10_units_acre
+    Over 40 Units/Acre: :over_40_units_acre
+    Lot 10000-19999 Sqft: :lot_10000_to_19999_sqft
+    Lot 20000-39999 Sqft: :lot_20000_to_39999_sqft
+    Lot 6500-9999: :lot_6500_to_9999
+    Lot Over 40000 Sqft: :lot_over_40000_sqft
+
+- :perchwell_field: :property_style
+  :reso_field: :architectural_style
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Craftsman: :craftsman
+    English: :english
+    French: :french
+    Georgian: :georgian
+    See Remarks: :see_remarks
+    Shotgun: :shotgun
+
+- :perchwell_field: :water_source
+  :reso_field: :water_source
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Agricultural Well: :agricultural_well
+
+- :perchwell_field: :window_features
+  :reso_field: :window_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Jalousies/Louvered: :jalousies_louvered
+    Palladian: :palladian
+    Roller Shields: :roller_shields
+    Atrium: :atrium
+    French/Mullioned: :french_mullioned
+    Custom Covering: :custom_covering
+    Stained Glass: :stained_glass
+
+- :perchwell_field: :green_sustainability
+  :reso_field: :green_sustainability
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Biodegradable Materials: biodegradable_materials
+
+- :perchwell_field: :rent_includes
+  :perchwell_getter: :reso_rent_includes
+  :reso_field: :rent_includes
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Association Dues: :association_dues
+    Maid Service: :maid_service
+    Pool: :pool
+
+- :perchwell_field: :current_use
+  :reso_field: :current_use
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Church: :church
+    Improved: :improved
+    Parking lot: :parking_lot
+    Storage: :storage
+
+- :perchwell_field: :fuel_type
+  :reso_field: :heating
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Combination: :combination
+    High Efficiency: :high_efficiency
+
+- :perchwell_field: :special_listing_conditions
+  :reso_field: :special_listing_conditions
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Trust: :trust
+    Conservatorship: :conservatorship
+
+- :perchwell_field: :possession
+  :reso_field: :possession
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Close Plus: :close_plus
+
+- :perchwell_field: :green_energy_generation
+  :reso_field: :green_energy_generation
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Geothermal: :geothermal
+
+- :perchwell_field: :listing_agreement
+  :reso_field: :listing_agreement
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Seller Reserved: :seller_reserved
+
+- :perchwell_field: :pool_type
+  :reso_field: :pool_features
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Pebble: :pebble
+    Exercise Pool: :exercise_pool
+    Heated Passively: :heated_passively
+    Heated with Propane: :heated_with_propane
+    No Permits: :no_permits
+    Permits: :permits
+    Roof Top: :roof_top
+
+- :perchwell_field: :view
+  :reso_field: :view
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Bluff: :bluff
+    Dunes: :dunes
+    Back Bay: :back_bay
+    Catalina: :catalina
+    Coastline: :coastline
+    Courtyard: :courtyard
+    Harbor: :harbor
+    Landmark: :landmark
+    Peek-A-Boo: :peek_a_boo
+    Pier: :pier
+    Reservoir: :reservoir
+    Rocks: :rocks
+    Vincent Thomas Bridge: :vincent_thomas_bridge
+    White Water: :white_water
+
+- :perchwell_field: :roof
+  :reso_field: :roof
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Ridge Vents: :ridge_vents
+    Reflective: :reflective
+    Clay: :clay
+    Common Roof: :common_roof
+    Fire Retardant: :fire_retardant
+    Bitumen: :bitumen
+
+- :perchwell_field: :property_sub_type
+  :reso_field: :property_sub_type
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :single
+  :bidirectional_mapping:
+    Commercial/Residential: :com_res
+    High Tech-Flex: :high_tech
+    Rooms for Rent: :rooms_for_rent
+    Specialty: :specialty
+    Studio: :studio
+    Water Position With Land: :wpwl
+    Water Position Without Land: :wpol
+
+- :perchwell_field: :contingency_types
+  :reso_field: :contingency_types
+  :reso_class: :ResoProperty
+  :perchwell_class: :Listing
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    ContingentOnBuyerSale: :contingent_on_buyer_sale
+    ContingentOnSellerPurchase: :contingent_on_seller_purchase
+    StandardContractContingencies: :standard_contract
+    SeeRemarks: :see_remarks
+
+- :perchwell_field: :development_status
+  :reso_field: :development_status
+  :reso_class: :ResoProperty
+  :perchwell_class: :Feature
+  :lookup_type: :multi
+  :bidirectional_mapping:
+    Demolished: :demolished
+    Proposed: :proposed

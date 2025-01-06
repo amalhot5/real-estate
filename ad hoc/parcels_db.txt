@@ -1,0 +1,14 @@
+
+[PARCELS DB]
+url: jdbc:postgresql://euphrates-parcels.perchwell.com:5432/property_data
+user: data_team_user
+pass: K1gn532mHh3ra835nP
+
+NOTE: You have read access to the schema crmls_bk.
+
+Example:
+
+SELECT *
+FROM crmls_bk.raw_full
+limit 100;
+

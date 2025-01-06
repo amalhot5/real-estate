@@ -1,0 +1,2 @@
+{'latitude', 'longitude'}
+{'number_of_units_total', 'main_level_bedrooms', 'lot_size_square_feet', 'walk_score', 'land_lease_amount', 'number_of_separate_gas_meters', 'bathrooms_three_quarter', 'year_built', 'number_of_separate_water_meters', 'number_of_buildings', 'bathrooms_one_quarter', 'main_level_bathrooms', 'tax_other_annual_assessment_amount'}

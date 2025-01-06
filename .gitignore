@@ -12,7 +12,7 @@ data/
 *.prj
 *.shp
 *.shx
-*/gen_queries/
+**/gen_queries/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
