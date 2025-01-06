@@ -1,0 +1,317 @@
+building_count: 90
+listing_count: 150
+region_key: 'new_jersey'
+location_info:
+  - centroid_longitude: '-74.7714718139183'
+    centroid_latitude: '40.4894534081048'
+  - centroid_longitude: '-74.1890681705446'
+    centroid_latitude: '41.0547993474601'
+  - centroid_longitude: '-74.7843835191814'
+    centroid_latitude: '40.7493004096791'
+  - centroid_longitude: '-74.8004675584018'
+    centroid_latitude: '40.8096586249359'
+  - centroid_longitude: '-74.5039931972895'
+    centroid_latitude: '40.8141090527541'
+  - centroid_longitude: '-74.8607345688721'
+    centroid_latitude: '40.9676407793793'
+  - centroid_longitude: '-75.1012565911845'
+    centroid_latitude: '40.5754032023015'
+  - centroid_longitude: '-75.1764365300059'
+    centroid_latitude: '39.1659763738583'
+  - centroid_longitude: '-75.0788890997023'
+    centroid_latitude: '39.5271739256147'
+  - centroid_longitude: '-74.4976021628553'
+    centroid_latitude: '40.0055230656965'
+  - centroid_longitude: '-74.9912559404988'
+    centroid_latitude: '40.7337266941363'
+  - centroid_longitude: '-74.7720576005041'
+    centroid_latitude: '41.0017869681526'
+  - centroid_longitude: '-74.2111054962529'
+    centroid_latitude: '39.5560897486066'
+  - centroid_longitude: '-74.3915827523658'
+    centroid_latitude: '40.9233345019471'
+  - centroid_longitude: '-73.9960401374738'
+    centroid_latitude: '40.4616828356254'
+  - centroid_longitude: '-74.9773196092992'
+    centroid_latitude: '40.5959498130989'
+  - centroid_longitude: '-74.3728879221687'
+    centroid_latitude: '40.963240542842'
+  - centroid_longitude: '-74.8125858454384'
+    centroid_latitude: '39.8969978553185'
+  - centroid_longitude: '-74.0705700420781'
+    centroid_latitude: '41.0103035715948'
+  - centroid_longitude: '-74.2736620871051'
+    centroid_latitude: '39.7346279146406'
+  - centroid_longitude: '-74.790945664891'
+    centroid_latitude: '39.0024201840807'
+  - centroid_longitude: '-74.4428338048816'
+    centroid_latitude: '40.1267351835735'
+  - centroid_longitude: '-75.0475002530019'
+    centroid_latitude: '38.8783867158684'
+  - centroid_longitude: '-74.8433065105543'
+    centroid_latitude: '40.837868280012'
+  - centroid_longitude: '-75.4778005469245'
+    centroid_latitude: '39.651214554245'
+  - centroid_longitude: '-74.7852574104595'
+    centroid_latitude: '40.3717865296179'
+  - centroid_longitude: '-74.1019105135828'
+    centroid_latitude: '39.8193307911776'
+  - centroid_longitude: '-74.6415056982138'
+    centroid_latitude: '39.246479942326'
+  - centroid_longitude: '-75.0970144323689'
+    centroid_latitude: '40.6771508587891'
+  - centroid_longitude: '-74.5321664434248'
+    centroid_latitude: '39.6193224342091'
+  - centroid_longitude: '-75.2532221420977'
+    centroid_latitude: '39.6668868454515'
+  - centroid_longitude: '-74.2423761792414'
+    centroid_latitude: '40.2241169576847'
+  - centroid_longitude: '-74.929778576478'
+    centroid_latitude: '39.4485963821496'
+  - centroid_longitude: '-75.2401886114525'
+    centroid_latitude: '39.3747207257511'
+  - centroid_longitude: '-75.2972795215291'
+    centroid_latitude: '39.2510454243357'
+  - centroid_longitude: '-74.3167126045557'
+    centroid_latitude: '39.5663583533981'
+  - centroid_longitude: '-74.0081475606168'
+    centroid_latitude: '40.2500295402159'
+  - centroid_longitude: '-74.3747233764598'
+    centroid_latitude: '39.4296939829355'
+  - centroid_longitude: '-74.5364140274865'
+    centroid_latitude: '39.8076234451277'
+  - centroid_longitude: '-75.1345525159099'
+    centroid_latitude: '39.8497898241188'
+  - centroid_longitude: '-74.8852338429245'
+    centroid_latitude: '38.9070996863382'
+  - centroid_longitude: '-74.5478523364334'
+    centroid_latitude: '40.3159931677745'
+  - centroid_longitude: '-74.909055571179'
+    centroid_latitude: '39.1613467429993'
+  - centroid_longitude: '-74.1967720311023'
+    centroid_latitude: '39.8872203067761'
+  - centroid_longitude: '-75.0829568805309'
+    centroid_latitude: '39.888942267578'
+  - centroid_longitude: '-74.992517358184'
+    centroid_latitude: '39.7968884058783'
+  - centroid_longitude: '-74.0694857556282'
+    centroid_latitude: '40.1239282633074'
+  - centroid_longitude: '-74.0875988974209'
+    centroid_latitude: '40.8910829457847'
+  - centroid_longitude: '-75.1051284465243'
+    centroid_latitude: '39.4496442125436'
+  - centroid_longitude: '-74.2048904349804'
+    centroid_latitude: '40.7023855561072'
+  - centroid_longitude: '-74.4236364392626'
+    centroid_latitude: '39.9526349961508'
+  - centroid_longitude: '-74.6697614404895'
+    centroid_latitude: '41.257212159391'
+  - centroid_longitude: '-74.4363640141093'
+    centroid_latitude: '39.7723851766759'
+  - centroid_longitude: '-74.7103328143943'
+    centroid_latitude: '39.3218635546038'
+  - centroid_longitude: '-74.6283984901503'
+    centroid_latitude: '40.7691353276056'
+  - centroid_longitude: '-74.0124797309985'
+    centroid_latitude: '39.9487159369216'
+  - centroid_longitude: '-74.7187821150487'
+    centroid_latitude: '39.836032303614'
+  - centroid_longitude: '-75.0616406582638'
+    centroid_latitude: '38.9917350018387'
+  - centroid_longitude: '-74.7653396868987'
+    centroid_latitude: '39.4771217087055'
+  - centroid_longitude: '-74.9147717882839'
+    centroid_latitude: '39.0444595210486'
+  - centroid_longitude: '-74.207131774938'
+    centroid_latitude: '40.8314722433572'
+  - centroid_longitude: '-74.2752061640923'
+    centroid_latitude: '40.5316172110142'
+  - centroid_longitude: '-74.4790800262128'
+    centroid_latitude: '41.0168658173505'
+  - centroid_longitude: '-74.4766372520782'
+    centroid_latitude: '40.4695804437518'
+  - centroid_longitude: '-74.9620163244248'
+    centroid_latitude: '40.4112730520273'
+  - centroid_longitude: '-74.5344013728466'
+    centroid_latitude: '39.4913560847292'
+  - centroid_longitude: '-74.6526095347689'
+    centroid_latitude: '39.5285305582745'
+  - centroid_longitude: '-74.3262864110338'
+    centroid_latitude: '40.7631074412862'
+  - centroid_longitude: '-74.1189447020483'
+    centroid_latitude: '40.3897698990644'
+  - centroid_longitude: '-74.8632010582302'
+    centroid_latitude: '39.5518146592853'
+  - centroid_longitude: '-74.6421941709503'
+    centroid_latitude: '40.2238378143245'
+  - centroid_longitude: '-74.2931816510527'
+    centroid_latitude: '40.5062994395303'
+  - centroid_longitude: '-74.4072970802957'
+    centroid_latitude: '40.3699206733661'
+  - centroid_longitude: '-74.7166966866082'
+    centroid_latitude: '40.5338731458179'
+  - centroid_longitude: '-74.1808412340983'
+    centroid_latitude: '41.028045111841'
+  - centroid_longitude: '-74.8079163957271'
+    centroid_latitude: '40.7197316746488'
+  - centroid_longitude: '-74.6631389577121'
+    centroid_latitude: '40.8175093873835'
+  - centroid_longitude: '-74.6179907083425'
+    centroid_latitude: '40.8355648613248'
+  - centroid_longitude: '-74.8707846042957'
+    centroid_latitude: '41.1217361218863'
+  - centroid_longitude: '-75.1901624137771'
+    centroid_latitude: '39.207110294829'
+  - centroid_longitude: '-75.0252420078119'
+    centroid_latitude: '39.6731378201543'
+  - centroid_longitude: '-74.5417986844935'
+    centroid_latitude: '39.9796232816487'
+  - centroid_longitude: '-74.9510362242418'
+    centroid_latitude: '40.6781857037559'
+  - centroid_longitude: '-74.7125902492994'
+    centroid_latitude: '41.024052355808'
+  - centroid_longitude: '-74.1673843000268'
+    centroid_latitude: '39.60734253798'
+  - centroid_longitude: '-74.4294087120186'
+    centroid_latitude: '40.9594914778613'
+  - centroid_longitude: '-74.9836482990009'
+    centroid_latitude: '40.4708375635005'
+  - centroid_longitude: '-74.3776951336698'
+    centroid_latitude: '41.1264086241414'
+  - centroid_longitude: '-74.6844541704998'
+    centroid_latitude: '39.9680665023618'
+  - centroid_longitude: '-74.0727811319563'
+    centroid_latitude: '41.047788734122'
+  - centroid_longitude: '-74.2162837090238'
+    centroid_latitude: '39.8215470144236'
+  - centroid_longitude: '-74.7671256195518'
+    centroid_latitude: '39.1033296808338'
+  - centroid_longitude: '-74.3603885713489'
+    centroid_latitude: '40.144226539211'
+  - centroid_longitude: '-74.9896783508504'
+    centroid_latitude: '40.9352383742682'
+  - centroid_longitude: '-75.4470748834651'
+    centroid_latitude: '39.5500115770287'
+  - centroid_longitude: '-74.6627041175082'
+    centroid_latitude: '40.3257195461518'
+  - centroid_longitude: '-74.4796533887928'
+    centroid_latitude: '39.3266360734561'
+  - centroid_longitude: '-74.5617279571835'
+    centroid_latitude: '39.6200114092832'
+  - centroid_longitude: '-75.2887842522639'
+    centroid_latitude: '39.6611453769478'
+  - centroid_longitude: '-74.2306262920234'
+    centroid_latitude: '40.1205123758506'
+display_address:
+  - 0 St Rt 247
+  - 25058 Dunlap Road
+  - 2394 Briers Drive
+  - 8080 Claus Road
+  - 455 Blueridge Drive
+  - 811 Barker Drive
+  - 1225 Herschel Avenue
+  - 2106 S 11th Street
+  - 435 Demorest Road
+  - 940 Broad Street
+  - 800 Lakeview Avenue
+  - 1428 Wade Avenue
+  - 746 Harnam Court
+  - 3907 Afton Elklick Road
+  - 69 Vernon Road
+  - 24 Deer Trail Circle
+  - 3059 Mentor Street
+  - 216 Ridgeway Road
+  - 2288 Rosedale Avenue
+  - 5734 Sigmon Way
+  - 652 S Hempstead Road
+  - 6269 Havens Road
+  - 2605 Rhapsody Drive
+  - 5979 Meadowcreek Dr
+  - 291 Morton Road
+  - 10991 Rehmerts Run
+  - 1608 W Grant Street
+  - 3795 Kirchling Road
+  - 17775 Lower Gambier Road
+  - 1204 Twp Rd 1175
+  - 9 St Rt 350
+  - 5386 Park Lane Drive
+  - 1378 Chinook Court
+  - 6080 Manila Road
+  - 222 W Espy Street
+  - 3477 Martha Ann Way
+  - 7300 Beechmont Avenue
+  - 1907 Fairmount Avenue
+  - 10960 Comanche Drive
+  - 3141 Adirondack Avenue
+  - 4802 Prince Charles Way
+  - 2324 Madison Road
+  - 6970 Elbrook Avenue
+  - 1161 Brookstone Drive
+  - 45 Wampler Ave
+  - 3358 Hadrian Circle NW
+  - 15 Tanglewood Road
+  - 3953 Pepperwell Circle
+  - 909 King Avenue
+  - 17731 Gifford Road
+  - 6240 Condit Road
+  - 4546 Anderson Road
+  - 8080 Maxtown Road
+  - 1130 7th Street NE
+  - 10830 Lakehurst Court
+  - 616 Summerdale Avenue NW
+  - 200 S State Street
+  - 1502 Westwood Avenue
+  - 1224 Alta Vista Drive
+  - 345 W 2nd Street
+  - 1842 Perkins Drive
+  - 612 Radcliffe Drive
+  - 250 W Main Road
+  - 4707 Belvedere Park
+  - 1554 E Easton Road
+  - 3233 Robin Lane
+  - 12970 Kilger Court
+  - 7103 Windwood Drive
+  - 1854 Eastfield Drive
+  - 138 Powhatan Avenue
+  - 71 Maple Lane
+  - 11480 Enyart Road
+  - 4840 Castleton Drive
+  - 125 12th Street
+  - 6111 Madison Road
+  - 8640 Lynnehaven Drive
+  - 6281 Eagles Lake Drive
+  - 3582 Ringling Lane
+  - 6894 Clymer Drive
+  - 8935 Pickerington Road
+  - 4410 Manchester Avenue SW
+  - 22 Clubhouse Way
+  - 4631 Spring Grove Avenue
+  - 1005 Stoneybrook Road
+  - 3439 Independence Street
+  - 18455 State Route 26
+  - 2490 E Highwood Drive
+  - 820 E Main Street
+  - 1329 Madison Avenue
+  - 1405 Lutz Place NE
+  - 2139 Sedan Avenue
+  - 3093 Village View Lane
+  - 883 Windbourne Street
+  - 906 W 29th Street
+  - 7894 Kirkland Drive
+  - 915 E Central Avenue
+  - 309 Pueblo Street
+  - 158 Ann Court
+  - 398 E Mound Street
+  - 1291 Dusty Lane
+paragraph: |
+  Blank lines denote
+  paragraph breaks
+content: |-
+  Or we
+  can auto
+  convert line breaks
+  to save space
+alias:
+  bar: baz
+alias_reuse:
+  bar: baz
